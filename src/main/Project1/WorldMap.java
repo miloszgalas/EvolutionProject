@@ -87,7 +87,7 @@ public class WorldMap {
         }
     }
 
-    boolean isOccupied(Position t) {
+    public boolean isOccupied(Position t) {
         return !(jungleEmpty.contains(t) || otherEmpty.contains(t));
     }
 
@@ -99,7 +99,7 @@ public class WorldMap {
         return oldestGenome;
     }
 
-    Object objectAt(Position position) {
+    public Object objectAt(Position position) {
         if (isOccupied(position)) {
             if (animals.containsKey(position)) {
                 return animals.get(position).toArray()[0];

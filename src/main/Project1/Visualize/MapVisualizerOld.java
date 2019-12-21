@@ -1,4 +1,8 @@
-package Project1;
+package Project1.Visualize;
+//class just for test purposes
+
+import Project1.Position;
+import Project1.WorldMap;
 
 /**
  * The map visualizer converts the {@link IWorldMap} map into a string

@@ -26,7 +26,6 @@ public class Genome {
             } while (incrementOn.contains(x));
             incrementOn.add(x);
         }
-//        System.out.println(incrementOn);
         int g = 0;
         for (int i = 0; i < 32; i++) {
             newGenes[i] = g;
@@ -61,7 +60,6 @@ public class Genome {
                 newGenes[i] = this.genes[i];
         }
         return new Genome(newGenes);
-//        add genome control on merging
     }
 
 
